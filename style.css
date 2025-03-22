@@ -67,12 +67,8 @@ body{
     font-size: 18px;
     text-decoration: none;
     color: #fbf5dd;
-    transition:   0.3s ease ;
 }
-.HO:hover{
-    color:   #818C78;
-     font-size: 24px;
-}
+
 .log{
     padding: 10px 20px;
     background-color: #fbf5dd;
@@ -89,6 +85,7 @@ body{
     background-color: #a6cdc6;
     color: #16404d;
 }
+
 
 /*--------------------------------HeroSection-------------------------------------*/
 
@@ -496,7 +493,7 @@ body{
 
 /*-----------------------------------------education------------------------------------------------------------*/    
 .education{
-    height:150vh;
+    padding: 120px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -507,8 +504,8 @@ body{
     font-size: 45px;
     font-weight: 700;
     color: #16404d;
-    cursor: pointer;
-    animation: fadeInUp 1s ease;
+
+    
     
 }
 @keyframes fadeInUp{

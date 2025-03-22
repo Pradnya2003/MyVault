@@ -93,7 +93,7 @@ body{
     height:100vh;
     width:250px;
     z-index: 999;
-    background-color: rgba(10, 30, 3, 0.322);
+    background-color: rgba(248, 255, 245, 0.322);
     box-shadow: -10px 0 10px rgba(0 ,0,0,0.3  );
     display:none;
     flex-direction: column;
@@ -111,9 +111,10 @@ padding: 0px 69px;
 .menu{
     display:none;
 }
+
+
 .navtextside{
     width: 100%;
-
     text-decoration: none;
     padding: 20px 29px;
   
@@ -125,20 +126,22 @@ padding: 0px 69px;
     color: #324044;
     display: flex;
     flex-direction: column;
-    
+    margin-top:20px;
 }
 .close{
  height: 30px;
  width:30px;
 }
 .navbarSide.log{
-    padding:78px;
+    padding:78px 78px;
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+
 
 }
+
 
 /*-------navbarSide-------------------------HeroSection-------------------------------------*/
 
@@ -678,8 +681,11 @@ padding: 0px 69px;
     /* navigation bar */
     .menu{
         display: flex;
+        color: #E2E0C8;
     }
-    
+    .photo{
+       margin-top: 99px;
+    }
     .navtext{
         display: none;
     }
@@ -702,6 +708,7 @@ padding: 0px 69px;
     }
     .text{
         order:2;
+        margin-left: 60px;
         display:flex;
         height: 50px;
         padding:20px 15px;
@@ -709,6 +716,9 @@ padding: 0px 69px;
     }
     .heroName{
         font-size:30px;
+    }
+    .about{
+        height:160vh;
     }
 
                         /* projectsection */
@@ -723,7 +733,7 @@ padding: 0px 69px;
         padding-bottom: 23px;
     }
     .imageProject img{
-        height: 220px;
+        /* height: 220px; */
         width:360px;
         padding-right: 20px;
         padding-top:20px;
@@ -756,6 +766,9 @@ padding: 0px 69px;
         justify-content: center;
         align-items: center;
 
+    }
+    .text{
+        margin-left: 25px;
     }
     
     .degree     {
@@ -806,19 +819,46 @@ padding: 0px 69px;
 @media (max-width: 378px)       {
     .photo{
         height: 130px;
-        
+        margin-left: 9px;
         order:1;
         padding: 6px 0px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
-    
-    
-    footer{
-        
-        width:100%;
-       
+    .projectCard{
+        display: flex;
+        flex-direction: column;
+        height: 410px;
+        width:300px;
+        margin-left: 12px;
     }
+    .imageProject img{
+        height: 230px;
+        width:290px;
+        
+    }
+    .projectCardHeader{
+        order:2;
+        display: flex;
+        flex-direction: column;
+    }
+    .projectCardHeader h1{
+        font-size: 30px;
+
+    }
+    
+    .propara{
+        display: none;
+        
+    }
+    .degree     {
+        height: 200px;
+         width: 310px;
+    }
+    .highersecondary{
+        height: 200px;
+         width: 310px;
+    }
+    
 }

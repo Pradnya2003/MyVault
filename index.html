@@ -3,6 +3,16 @@
 <title>
     pradnya
 </title>
+<script>
+    function shownavbarSide (){
+        const navbarSide =document.querySelector('.navbarSide')
+        navbarSide.style.display ='flex'
+    }
+    function hidenavbarSide(){
+        const navbarSide = document.querySelector('.navbarSide')
+        navbarSide.style.display ='none' 
+    }
+</script>
 
 <head>
     <meta charset="UTF-8">
@@ -28,8 +38,33 @@
             <div class="log">
                <a href="https://github.com/Pradnya2003" target="_blank" style="text-decoration: none;">GitHub</a>
             </div>
+            <div class="menu" >
+                <img onclick= shownavbarSide() class="menu" src="./assets/menu.svg" alt="menu">
+
+            </div>
         </div>
     </div>
+    
+        <div class="navbarSide">
+           
+                <h1>MyVault</h1>
+            
+            <div class="navtextside">
+                <div class="close">
+                    <img onclick= hidenavbarSide() class="close" src="./assets/close.svg" alt="menu">
+                </div>
+
+                 <a  href="#home">Home</a>
+                 <a  href="#project">project</a>
+                 <a  href="#about">Skills</a>
+                 <a  href="#edu">Education</a>
+                 <a  href="#footer">Contact</a>
+            </div>
+            <!-- <div class="log">
+               <a href="https://github.com/Pradnya2003" target="_blank" style="text-decoration: none ; color:black">GitHub</a>
+            </div> -->
+        </div>
+  
   
    
 <div  id ="home" class="herosession">
